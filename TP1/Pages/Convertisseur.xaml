@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP1.Pages.Convertisseur"
+             >
+    <VerticalStackLayout>
+        <StackLayout Orientation="Horizontal"  HorizontalOptions="Fill" Padding="15">
+            <Label WidthRequest="100"
+               VerticalOptions="Center"
+                       HeightRequest="40"
+                        Margin="0,0,10,0"
+                   x:Name="uniteDepart"
+               BackgroundColor="LightBlue" />
+            <Label HorizontalOptions="FillAndExpand"
+                  HeightRequest="40"
+               VerticalOptions="Center"
+               x:Name="valeurDepart"
+               BackgroundColor="LightGray" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" Padding="15">
+            <Label WidthRequest="100"
+               VerticalOptions="Center"
+               HeightRequest="40"
+               Margin="0,0,10,0"
+               x:Name="uniteCible"
+               BackgroundColor="LightBlue" />
+            <Label HorizontalOptions="FillAndExpand"
+                  HeightRequest="40"
+               VerticalOptions="Center"
+               x:Name="valeurCible"
+               BackgroundColor="LightGray" />
+        </StackLayout>
+        <HorizontalStackLayout Padding="15" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button Text="EFFACER" HeightRequest="18" x:Name="effacerBtn" Clicked="effacerBtn_Clicked" HorizontalOptions="FillAndExpand" Style="{StaticResource DeleteStyle}" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Padding="15" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button Text="CM A POUCE" HeightRequest="18" Margin="0,0,10,0" Clicked="OnUnitBtnClicked" />
+            <Button Text="POUCE A CM" HeightRequest="18" Margin="0,0,10,0" Clicked="OnUnitBtnClicked" />
+            <Button Text="M A PIED" HeightRequest="18" Margin="0,0,10,0" Clicked="OnUnitBtnClicked" />
+            <Button Text="PIED A M" HeightRequest="18" Clicked="OnUnitBtnClicked" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Padding="15" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button Text="G A ONCE" HeightRequest="18" Margin="0,0,10,0" Clicked="OnUnitBtnClicked" />
+            <Button Text="ONCE A G" HeightRequest="18" Margin="0,0,10,0" Clicked="OnUnitBtnClicked" />
+            <Button Text="KG A LBS" HeightRequest="18" Margin="0,0,10,0" Clicked="OnUnitBtnClicked" />
+            <Button Text="LBS A KG" HeightRequest="18" Clicked="OnUnitBtnClicked" />
+        </HorizontalStackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="15" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button Text="7" HeightRequest="18" Margin="0,0,10,0" Clicked="OnNumberBtnClicked" />
+            <Button Text="8" HeightRequest="18" Margin="0,0,10,0"  Clicked="OnNumberBtnClicked" />
+            <Button Text="9" HeightRequest="18"  Clicked="OnNumberBtnClicked" />
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal" Padding="15" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button Text="4" HeightRequest="18" Margin="0,0,10,0"  Clicked="OnNumberBtnClicked" />
+            <Button Text="5" HeightRequest="18" Margin="0,0,10,0"  Clicked="OnNumberBtnClicked" />
+            <Button Text="6" HeightRequest="18"  Clicked="OnNumberBtnClicked" />
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal" Padding="15" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button Text="1" HeightRequest="18" Margin="0,0,10,0"  Clicked="OnNumberBtnClicked" />
+            <Button Text="2" HeightRequest="18" Margin="0,0,10,0"  Clicked="OnNumberBtnClicked" />
+            <Button Text="3" HeightRequest="18"  Clicked="OnNumberBtnClicked" />
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal" Padding="15" HorizontalOptions="Center" VerticalOptions="Center">
+            <Button Text="0" HeightRequest="18"  Clicked="OnNumberBtnClicked" />
+        </StackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

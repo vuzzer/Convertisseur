@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP1.Pages.Aide"
+             >
+    <VerticalStackLayout >
+        <Label 
+            Text="Convertisseur Pro."
+            FontSize="Title"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <VerticalStackLayout Padding="10">
+            <Label 
+            Text="L'application Convertisseur Pro, développée par Bienvenu Kouassi permet de convertir des unités de distances et de masses"
+            FontSize="Body"
+            LineBreakMode="WordWrap"
+        />
+            <Label LineBreakMode="WordWrap">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- CM A POUCE: " FontAttributes="Bold" />
+                        <Span Text="Convertir de centimètre à pouce. 1cm = 0,393701'" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label LineBreakMode="WordWrap">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- POUCE A CM: " FontAttributes="Bold" />
+                        <Span Text="Convertir de pouce à centimètre. 1'' = 2.54cm" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label LineBreakMode="WordWrap">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- M A PIED: " FontAttributes="Bold" />
+                        <Span Text="Convertir de mètre à pied. 1m = 3.281ft" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label LineBreakMode="WordWrap">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- PIED A M: " FontAttributes="Bold" />
+                        <Span Text="Convertir de pied à mètre. 1ft = 0.3048m" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label LineBreakMode="WordWrap">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- G A ONCE: " FontAttributes="Bold" />
+                        <Span Text="Convertir de gramme à once. 1g = 0.035274oz" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label LineBreakMode="WordWrap">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- ONCE A G: " FontAttributes="Bold" />
+                        <Span Text="Convertir de once à gramme. 1oz = 28.35g" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label LineBreakMode="WordWrap">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- KG A LB: " FontAttributes="Bold" />
+                        <Span Text="Convertir de kilogramme à livre. 1kg = 2.20462lbs" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label LineBreakMode="WordWrap">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="- LB A KG: " FontAttributes="Bold" />
+                        <Span Text="Convertir de livre à kilogramme. 1lbs = 0.453592kg" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
