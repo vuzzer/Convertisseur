@@ -4,16 +4,11 @@
              x:Class="TP1.Pages.Aide"
              >
     <VerticalStackLayout >
-        <Label 
-            Text="Convertisseur Pro."
-            FontSize="Title"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Label Style="{StaticResource Titre}"
+            Text="Convertisseur Pro." />
         <VerticalStackLayout Padding="10">
-            <Label 
+            <Label Style="{StaticResource SousLigne}"
             Text="L'application Convertisseur Pro, développée par Bienvenu Kouassi permet de convertir des unités de distances et de masses"
-            FontSize="Body"
-            LineBreakMode="WordWrap"
         />
             <Label LineBreakMode="WordWrap">
                 <Label.FormattedText>

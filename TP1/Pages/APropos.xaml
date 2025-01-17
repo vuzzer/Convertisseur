@@ -3,18 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TP1.Pages.APropos"
              >
-    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center"  >
-        <Label 
+    <VerticalStackLayout>
+        <Label Style="{StaticResource Titre}" 
             Text="Calculatrice"
-            FontSize="Title"
             />
-        <Label
+        <Label Style="{StaticResource SousLigne}"
             Text="Développé par Bienvenu Kouassi"
-            FontSize="Subtitle"
             />
-        <Label
+        <Label Style="{StaticResource SousLigne}"
             Text="Version 1.0.0"
-            FontSize="Subtitle"
             />
     </VerticalStackLayout>
 </ContentPage>
